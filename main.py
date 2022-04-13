@@ -1,3 +1,9 @@
+"""
+Purpose: This is a remake of the classic Dinosaur Game built into the chrome web browser.
+
+Author: Lzo
+"""
+
 import pygame, sys, random
 from pygame import Vector2 as vector
 
