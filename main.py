@@ -36,7 +36,7 @@ class Player(pygame.sprite.Sprite):
             ]
 
 
-        # This pevents the player from jumping when they press space to reset the game
+        # This prevents the player from jumping when they press space to reset the game
         self.space_was_to_reset = False
 
         # Scales down all of the images to be 32 by 32 opposed to larger
