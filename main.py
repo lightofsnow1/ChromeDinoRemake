@@ -32,7 +32,7 @@ class Player(pygame.sprite.Sprite):
             pygame.image.load("jump.png"),   # 3  
             pygame.image.load("spin.png"),  # 4 
             pygame.image.load("spin2.png"),  # 5
-            pygame.image.load("assets/images/DinosaurDie.png")     # 6
+            pygame.image.load("die.png")     # 6
             ]
 
 
