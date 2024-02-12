@@ -26,12 +26,12 @@ class Player(pygame.sprite.Sprite):
 
         # All possible sprites for the player to have 
         self.sprites = [
-            pygame.image.load("assets/images/DinosaurStatic.png"), # 0
-            pygame.image.load("assets/images/DinosaurRun1.png"),   # 1 
-            pygame.image.load("assets/images/DinosaurRun2.png"),   # 2  
-            pygame.image.load("assets/images/DinosaurJump.png"),   # 3  
-            pygame.image.load("assets/images/DinosaurDuck1.png"),  # 4 
-            pygame.image.load("assets/images/DinosaurDuck2.png"),  # 5
+            pygame.image.load("stand.png"), # 0
+            pygame.image.load("run.png"),   # 1 
+            pygame.image.load("run.png"),   # 2  
+            pygame.image.load("jump.png"),   # 3  
+            pygame.image.load("spin.png"),  # 4 
+            pygame.image.load("spin2.png"),  # 5
             pygame.image.load("assets/images/DinosaurDie.png")     # 6
             ]
 
